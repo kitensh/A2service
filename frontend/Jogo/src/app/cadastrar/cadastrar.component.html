@@ -1,0 +1,9 @@
+
+<form [formGroup]="formulario" class="box">
+<mat-form-field appearance="outline" class="input">
+  <mat-label>Nome do Jogo</mat-label>
+  <input formControlName="nome" matInput>
+  <mat-icon matSuffix>videogame_asset</mat-icon>
+</mat-form-field>
+<button  type="submit" class="botao" mat-raised-button (click)="cadastrarJogo()" color="primary">Adicionar</button>
+</form>

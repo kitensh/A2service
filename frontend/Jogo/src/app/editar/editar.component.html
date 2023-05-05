@@ -1,0 +1,14 @@
+<form [formGroup]="formulario" class="box">
+    <mat-form-field appearance="outline" class="input">
+        <mat-label>Digite o ID do jogo</mat-label>
+        <input type="number" formControlName="id" matInput>
+        <mat-icon matSuffix>key</mat-icon>
+      </mat-form-field>
+    <mat-form-field appearance="outline" class="input2">
+      <mat-label>Escolha o novo nome</mat-label>
+      <input formControlName="nome" matInput>
+      <mat-icon matSuffix>videogame_asset</mat-icon>
+    </mat-form-field>
+    
+    <button  type="submit" class="botao" mat-raised-button (click)="editarJogo()" color="primary">Atualizar</button>
+    </form>

@@ -1,0 +1,17 @@
+.input{
+    margin-top: 50px;
+    
+    width: 300px;
+
+}
+
+.botao{
+    width: 300px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

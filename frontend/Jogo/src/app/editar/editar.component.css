@@ -1,0 +1,33 @@
+.input{
+    margin-top: 50px;
+    
+    width: 300px;
+
+}
+.input2{
+    margin-top: 10px;
+    
+    width: 300px;
+
+}
+
+.botao{
+    width: 300px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
