@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  backend:
+    build: ./backend/jogo
+    container_name: back
+    restart: always
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+
+
+  db:
+    build: ./bd
+    container_name: banco
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 123
+      MYSQL_DATABASE: jogos
+    ports:
+      - "3307:3306"
+
+
+  frontend:
+    build: ./frontend/Jogo
+    container_name: front
+    restart: always
+    ports:
+      - "91:80"
