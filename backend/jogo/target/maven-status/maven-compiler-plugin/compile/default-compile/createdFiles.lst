@@ -1,0 +1,6 @@
+br\unitins\jogo\JogoApplication.class
+br\unitins\jogo\model\DadosCadastroJogo.class
+br\unitins\jogo\model\Jogo.class
+br\unitins\jogo\model\DadosDetalheJogo.class
+br\unitins\jogo\controller\JogoController.class
+br\unitins\jogo\model\JogoRepository.class
